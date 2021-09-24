@@ -1,0 +1,64 @@
+{
+  "name": "nuffsaid.com-react-coding-challange",
+  "description": "nuffsaid.com react coding challange",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "4.12.3",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "12.1.0",
+    "@testing-library/user-event": "13.2.1",
+    "faker": "5.5.3",
+    "lodash": "4.17.21",
+    "nanoid": "^3.1.25",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "rxjs": "7.3.0",
+    "styled-components": "5.3.1",
+    "typescript": "4.4.3",
+    "web-vitals": "2.1.0"
+  },
+  "author": "nuffsaid.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/src/**/*.js",
+      "!**/__tests__/**"
+    ]
+  },
+  "repository": "git@gitlab.com:arnab8/nuffsaid-frontend-coding-challenge.git",
+  "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.2",
+    "@types/faker": "5.5.8",
+    "@types/jest": "27.0.2",
+    "@types/lodash": "4.14.173",
+    "@types/node": "16.9.6",
+    "@types/react": "17.0.24",
+    "@types/react-dom": "17.0.9",
+    "@types/styled-components": "5.1.14"
+  }
+}
